@@ -1,13 +1,13 @@
 from function_storage import *
 
-# def decide_playerAmount(player_amount):
+# def decide_playerAmount(player_amount = 0):
 #     amount = input("Please enter the amount of players: ")
 #     player_amount = int(amount)
 #     while player_amount <= 2:
 #         print("Invalid amount entry. Please enter amount >= 3. Try again.")
 #         amount = input("Please enter the amount of players: ")
 #         player_amount = int(amount)
-# # player_amount = 0
+player_amount = 0
 # decide_playerAmount(player_amount)
 amount = input("Please enter the amount of players: ")
 player_amount = int(amount)

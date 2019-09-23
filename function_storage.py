@@ -18,8 +18,8 @@ def time_check(time_in,name_in):
 def user_input(player_amount,player_array):
     for i in range (player_amount):
         i = i+1
-        name_in = input("Please enter the name of runner #%d:" % i)
-        time_in = input("Please enter "+ str(name_in) + "s finish time (in minutes): ")
+        name_in = raw_input("Please enter the name of runner #%d:" % i)
+        time_in = input("Please enter " + name_in + "s finish time (in minutes): ")
         time_check(time_in,name_in)
         player_array[i-1] = Player(name_in,time_in)
 
